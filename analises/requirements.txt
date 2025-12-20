@@ -1,0 +1,30 @@
+# Dependências do Projeto - Análise Mari Doutorado
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Data handling
+openpyxl>=3.1.0  # Para Excel
+xlrd>=2.0.0      # Para Excel legado
+
+# Date/Time handling
+python-dateutil>=2.8.0
+
+# Web framework (descomente se usar API)
+flask>=2.3.0
+gunicorn>=21.0.0  # Para produção
+
+# Dashboard interativo (opcional - descomente se necessário)
+# dash>=2.11.0
+# plotly>=5.14.0
+
+# Utilities
+tqdm>=4.65.0  # Progress bars
+
+# Para servidor de produção
+werkzeug>=2.3.0
